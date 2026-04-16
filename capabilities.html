@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="siteTitle">1701 Industries</title>
+  <meta name="description" content="1701 Industries is a Lisbon-based company building design-led ventures across sustainable infrastructure, technology, and cross-border commercial growth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" data-i18n="brand">1701 Industries</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" class="nav-home" data-i18n="nav.home">Home</a>
+      <a href="founding.html" class="nav-founding" data-i18n="nav.founding">Founding</a>
+      <a href="about.html" class="nav-about" data-i18n="nav.about">About</a>
+      <a href="capabilities.html" class="nav-capabilities" data-i18n="nav.capabilities">Capabilities</a>
+      <a href="why-lisbon.html" class="nav-lisbon" data-i18n="nav.lisbon">Why Lisbon</a>
+      <a href="contact.html" class="nav-contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switcher" aria-label="Language selector">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="pt">PT</button>
+        <button class="lang-btn" data-lang="jp">JP</button>
+      </div>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="index.html" class="nav-home" data-i18n="nav.home">Home</a>
+    <a href="founding.html" class="nav-founding" data-i18n="nav.founding">Founding</a>
+    <a href="about.html" class="nav-about" data-i18n="nav.about">About</a>
+    <a href="capabilities.html" class="nav-capabilities" data-i18n="nav.capabilities">Capabilities</a>
+    <a href="why-lisbon.html" class="nav-lisbon" data-i18n="nav.lisbon">Why Lisbon</a>
+    <a href="contact.html" class="nav-contact" data-i18n="nav.contact">Contact</a>
+  </div>
+</header>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow" data-i18n="nav.capabilities"></p>
+    <h2 data-i18n="capabilitiesTitle"></h2>
+    <p class="lead-sm top-gap-sm" data-i18n="capabilitiesIntro"></p>
+    <div class="cards-grid top-gap">
+      <article class="card"><h3 data-i18n="cap1Title"></h3><p data-i18n="cap1Text"></p></article>
+      <article class="card"><h3 data-i18n="cap2Title"></h3><p data-i18n="cap2Text"></p></article>
+      <article class="card"><h3 data-i18n="cap3Title"></h3><p data-i18n="cap3Text"></p></article>
+      <article class="card"><h3 data-i18n="cap4Title"></h3><p data-i18n="cap4Text"></p></article>
+      <article class="card"><h3 data-i18n="cap5Title"></h3><p data-i18n="cap5Text"></p></article>
+      <article class="card"><h3 data-i18n="cap6Title"></h3><p data-i18n="cap6Text"></p></article>
+      <article class="card"><h3 data-i18n="cap7Title"></h3><p data-i18n="cap7Text"></p></article>
+      <article class="card"><h3 data-i18n="cap8Title"></h3><p data-i18n="cap8Text"></p></article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="eyebrow" data-i18n="nav.contact">Contact</div>
+        <h3 class="top-gap-sm" data-i18n="contactTitle">Open to serious conversations.</h3>
+        <p class="lead-sm top-gap-sm" data-i18n="contactText">We welcome discussions with clients, developers, strategic partners, institutions, operators, and funding stakeholders aligned with thoughtful growth and practical execution.</p>
+        <p class="lead-sm top-gap-sm"><span data-i18n="contactEmailLabel">Email</span>: <a class="email-link" href="mailto:hello@1701industries.com" data-i18n="contactEmail">hello@1701industries.com</a></p>
+      </div>
+      <div class="footer-right">
+        <div class="brand" data-i18n="brand">1701 Industries</div>
+        <p class="lead-sm top-gap-sm" data-i18n="footerStatement">1701 Industries creates design-led platforms that combine sustainable infrastructure, technology, and international collaboration into commercially valuable outcomes.</p>
+        <p class="text-sm top-gap-sm" data-i18n="footerLocations">Lisbon, Portugal · EU · UK · Japan</p>
+        <p class="text-sm top-gap-sm" data-i18n="tagline">Designing Value. Building the Future.</p>
+      </div>
+    </div>
+    <div class="footer-copy" data-i18n="copyright">© 2017-2026, 1701 Industries.com, or its Partners</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.querySelectorAll('.nav-capabilities').forEach(el => el.classList.add('active'));</script>
+</body>
+</html>
